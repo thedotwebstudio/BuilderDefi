@@ -1,0 +1,154 @@
+body {
+    background: rgb(22 22 22);
+    font-family: 'Jost', sans-serif;
+}
+
+.app {
+    overflow: hidden;
+}
+
+.bg-dark {
+    background: transparent !important;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.text-blue {
+    color: rgb(0, 234, 255);
+}
+
+.hero {
+    height: 90vh;
+    background-image: url('../src/bg.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1,
+.hero h4 {
+    color: #fff!important;
+}
+
+.sec2 {
+    background: rgb(0, 234, 255);
+    padding: 5rem;
+}
+
+.sec2 .container h1 {
+    font-size: 80px!important;
+}
+
+.bg2 {
+    /* height: 50vh; */
+    background-image: url('../src/bg2.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg7 {
+    /* height: 50vh; */
+    background-image: url('../src/bg7.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec5 {
+    background: #00eaff;
+    padding: 5rem;
+}
+
+
+/* ///////// MY COOINS */
+
+.mc-sec {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+}
+
+.mc-bg2 {
+    height: 200px;
+    background-image: url('../src/mc-bg2.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.mc-bg {
+    flex: 1;
+    height: 80vh;
+    background-image: url('../src/mc-bg.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.mc-text {
+    flex: 1 1;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.card {
+    background: transparent;
+}
+
+.card-body {
+    color: #fff;
+}
+
+.btn.btn-primary {
+    color: #212121;
+    background-color: #00eaff !important;
+    border-color: #00eaff !important;
+}
+
+.btn.btn-secondary {
+    color: #fff;
+    background-color: #212121 !important;
+    border-color: #212121 !important;
+}
+
+h1 {
+    font-weight: bold !important;
+}
+
+a.find-link {
+    color: #212121 !important;
+}
