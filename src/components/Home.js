@@ -1,5 +1,6 @@
 import React from 'react';
 import { Row, Col, Card, Button } from 'react-bootstrap'
+import ReactPlayer from "react-player"
 
 import Img1 from '../img01.png'
 import Img2 from '../img02.png'
@@ -44,6 +45,17 @@ class Home extends React.Component {
             </section>
             {/* ////////////////////////// */}
             <div className="video p-5"></div>
+            {/* ////////////////////////// */}
+            {/* ////////////////////////// */}
+
+            <div className="text-center p-5">
+                <ReactPlayer
+                    width={"100%"}
+                    height={550}
+                    url="https://www.youtube.com/watch?v=k9HYC0EJU6E"
+                />
+            </div>
+            {/* ////////////////////////// */}
             {/* ////////////////////////// */}
             <div className="text-center p-5">
                 <h1 className='text-blue'>BUILDER DEFI FINANCIAL SYSTEM</h1>
